@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+	  <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    
+    <div class="background-image">
+      <div class="main">
+        
+        <h1>IMF Application</h1>
+        <h2>*Clearance Level: Secret Agent*</h2>        <p>Be Honest. </p>
+        <p>(Don't lie. We already know.)</p>
+        <form action='https://register-demo.freecodecamp.org'>
+          <fieldset>
+          <label>Your First & Last Name: <input type="text" name="first-name" required placeholder="Tom Cruise"/></label>
+          <label>Secret Agent Code Name: <input type="text" name="last-name" required placeholder="Ethan Hunt"/></label>
+          <label>Encrypted Contact Email: <input type="email" name="email" required placeholder="TomCruiseRunning@scientology.derp"/></label>
+          <label>UnHackable Password: <input type="password" name="password" pattern="[a-z0-5]{8,}" required placeholder="YouCompleteMe"/></label>
+      </fieldset>
+      <fieldset>
+        I am currently a...
+        <br/>
+        <br/>
+        <label><input type="radio" name="account-type" class="inline" /> Government Agent</label>
+        <label><input type="radio" name="account-type" class="inline" /> Trained Citizen Vigilante</label>
+        <label><input type="radio" name="account-type" class="inline" /> Overconfident Fan on Couch </label>
+        </fieldset>
+        <fieldset>
+          <input type="checkbox" name="terms" class="inline" required />I can keep a secret. <a href="https://en.wikipedia.org/wiki/Privacy_policy">Pinky Swear.</a> 
+			  </label>
+      </fieldset>
+      <fieldset>
+        <label>Upload a wicked cool profile picture: <input type="file" name="file" /></label>
+        <br/>
+        <label>How many times have you saved the world?<input type="number" name="age" min="0" max="120" />
+			  </label>
+        <br/>
+        <label>What is your best weapon against evil?  
+          <select name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Dazzling Intellect</option>
+            <option value="2">Pure Heart</option>
+            <option value="3">Cool Tech</option>
+            <br/>
+            <option value="4">Classified</option>
+          </select>
+        </label>
+        <br/>
+        <label>Provide a bio:
+          <textarea name="bio" rows="3" cols="30" placeholder="   Danger is my middle name, etc..."></textarea>
+			  </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+    <div class="end-message">
+      This message will self destruct. Any second now...
+  </div>
+  </div>
+</div>
+
+</body>
+</html>
