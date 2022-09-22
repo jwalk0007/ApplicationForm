@@ -3,19 +3,12 @@
   padding: 0;
 }
 
-.background-image {
-  background-image: url(./images/imf-logo.png);
-  background-size: 75%;
+body {
+  background:linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url(./images/imf-logo.png); 
+  background-size: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.main {
-  background:linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3));
-}
-
-body {
   width: 100%;
   height: 100vh;
   margin-top: -40px;
