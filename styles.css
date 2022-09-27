@@ -110,6 +110,7 @@ input[type="submit"]:hover {
 @media (max-width: 600px) {
   body {
     font-size: .75rem;
+    background-attachment: fixed;
     background-position: top;
     }
   }
