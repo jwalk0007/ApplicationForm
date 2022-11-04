@@ -6,20 +6,26 @@
 	  <link rel="stylesheet" href="styles.css" />
     <title>Registration Form</title>
   </head>
+  <!-- end head-->
+
     <body>
       <div class="main">
         <h1>IMF Application</h1>
         <h2>*Clearance Level: Secret Agent*</h2>
         <p>Be Honest. </p>
         <p>(Don't lie. We already know.)</p>
+        <!-- end title-->
+        
         <form action="">
           <fieldset>
           <label>Your First & Last Name: <input type="text" name="first-name" required placeholder="Tom Cruise"/></label>
           <label>Secret Agent Code Name: <input type="text" name="last-name" required placeholder="Ethan Hunt"/></label>
           <label>Encrypted Contact Email: <input type="email" name="email" required placeholder="TomCruiseRunning@scientology.derp"/></label>
           <label>UnHackable Password: <input type="password" name="password" pattern="[a-z0-5]{8,}" required placeholder="YouCompleteMe1996"/></label>
-      </fieldset>
-      <fieldset>
+          </fieldset>
+        <!-- end personal info-->
+        
+        <fieldset>
         I am currently a...
         <br/>
         <br/>
@@ -27,11 +33,15 @@
         <label><input type="radio" name="account-type" class="inline" /> Trained Citizen Vigilante</label>
         <label><input type="radio" name="account-type" class="inline" /> Overconfident Couch Potato </label>
         </fieldset>
+        <!-- end "currently"-->
+        
         <fieldset>
-          <input type="checkbox" name="terms" class="inline" required />I can keep a secret. <a href="https://en.wikipedia.org/wiki/Privacy_policy" target="_blank" rel="noopener noreferrer">Pinky Swear.</a> 
+          <input type="checkbox" name="terms" class="inline" required />I can keep a secret. <a href="https://nondisclosureagreement.com/wp-content/uploads/2020/11/Basic-Non-Disclosure-Agreement.pdf" target="_blank" rel="noopener noreferrer">Pinky Swear.</a> 
 			  </label>
       </fieldset>
-      <fieldset>        
+      <!-- end NDA-->
+      
+      <fieldset>
         <label>How many times have you saved the world?<input type="number" name="age" min="0" max="120" />
 			  </label>
         <br/>
@@ -51,11 +61,17 @@
           <textarea name="bio" rows="3" cols="30" placeholder="   Danger is my middle name, etc..."></textarea>
 			  </label>
       </fieldset>
+      <!-- end qualifications-->
+
       <input id="submit" type="submit" value="Submit" />
-    </form>
-    <p class="end-message">
+      </form>
+      <!-- end form-->
+
+      <p class="end-message">
       This message will self destruct. Any second now...
     </p>
    </div>
   </body>
+  <!-- end body-->
+
 </html>
